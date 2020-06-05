@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="#D2DB30">
+
+
+    <ImageView
+        android:layout_width="267dp"
+        android:layout_height="267dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo_hyra" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="450dp"
+        android:autoSizeTextType="uniform"
+        android:background="#D2DB30"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/Sign_up"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="450dp"
+        android:autoSizeTextType="uniform"
+        android:background="#D2DB30"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/oneliner"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:autoSizeTextType="uniform"
+        android:text="Space for the one liner" />
+
+</RelativeLayout>

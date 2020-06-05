@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#D2DB30"
+    >
+
+
+    <ImageView
+        android:layout_width="267dp"
+        android:layout_height="267dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo_hyra" />
+
+    <EditText
+        android:id="@+id/l_emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:autoSizeTextType="uniform"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress"/>
+
+
+
+    <EditText
+        android:id="@+id/l_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:autoSizeTextType="uniform"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+</RelativeLayout>
